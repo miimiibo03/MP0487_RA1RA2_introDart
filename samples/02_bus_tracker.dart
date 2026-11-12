@@ -3,8 +3,8 @@ import 'config.dart';
 
 void main() {
   // Parallel lists mapping Bus Routes to specific Stops and minutes remaining (ETA)
-  List<String> busNumbers = ["Line 42", "Line 101", "Line 42", "Line 78", "Line 101"];
-  List<String> stopNames = ["Downtown", "Central Station", "West Suburbs", "Downtown", "Downtown"];
+  List<String> busNumbers = ["Line 42", "Line 101", "Line 42", "Line 78", "Line 101"]; //bus Numbers
+  List<String> stopNames = ["Downtown", "Central Station", "West Suburbs", "Downtown", "Downtown"]; //Stop Names
   List<int> arrivalTimes = [15, 8, 22, 5, 12]; // ETA in minutes
 
   bool active = true;
@@ -64,7 +64,6 @@ void main() {
           }
         }
         break;
-
       // 3. SIMULATE TIME PROGRESSION (UPDATE ETAs)
       case "3":
         stdout.write(BusTrackerConfig.timePrompt);
