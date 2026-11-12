@@ -4,9 +4,9 @@ import 'config.dart';
 void main() {
   // Parallel lists to store shipment data using basic syntax
   List<int> shipmentIds = [101, 102, 103, 104, 105];
-  List<String> destinations = ["New York", "London", "Tokyo","Paris","Sydney"];
-  List<String> statuses = ["In Transit", "Processing", "Delivered","Processing","Delivered"];
-  List<double> weights = [5.5, 12.0, 2.5,8.2,14.5];
+  List<String> destinations = ["New York", "London", "Tokyo","Paris","Sydney"]; //Destination
+  List<String> statuses = ["In Transit", "Processing", "Delivered","Processing","Delivered"]; //Status of ships
+  List<double> weights = [5.5, 12.0, 2.5,8.2,14.5]; //Weights
 
   bool running = true;
 
